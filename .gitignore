@@ -1,0 +1,13 @@
+# Ignorar archivo settings, con datos sensibles
+# Python / Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Entornos virtuales
+.venv/
+venv/
+
+# Editor
+.vscode/
+\.env
