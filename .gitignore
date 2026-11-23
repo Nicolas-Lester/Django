@@ -11,3 +11,4 @@ venv/
 # Editor
 .vscode/
 \.env
+Start-Service postgresql-x64-17
