@@ -7,3 +7,10 @@ def bienvenido(request):
 
 def despedirse(request):
     return HttpResponse('Despedida desde Django')
+
+def contacto(request):
+    email = 'nicolasherreramontes625@gmail.com'
+    telefono = '+56964484168'
+    return HttpResponse([f'Email: {email}'
+                         '\n'
+                         f'Telefono: {telefono}'])
